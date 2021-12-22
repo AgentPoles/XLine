@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:background="@color/blacki_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/earthcapacitanceimageview"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_proceed"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <RelativeLayout
+            android:id="@+id/relone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerone"
+                android:layout_width="50dp"
+                android:visibility="invisible"
+                android:layout_alignBottom="@+id/ttedione"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedione"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnerone"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edione"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                    android:hint="weight of conductor in kg/m"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/reltwo"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnertwo"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/tteditwo"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tteditwo"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnertwo"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/editwo"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="cross sectional area of conductor in m2"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@+id/tteditwo"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relthree"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/reltwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerthree"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedithree"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedithree"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnerthree"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edithree"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="ultimate tensile strength in KN" />
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_below="@+id/ttedithree"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relfour"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerfour"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedifour"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedifour"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnerfour"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edifour"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="safety factor"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relfive"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerfive"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedifive"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedifive"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnerfive"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edifive"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="wind pressure Kg/m2"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relsix"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnersix"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedisix"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedisix"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnersix"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edisix"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="density of ice in Kg/m3"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relseven"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relsix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerseven"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttediseven"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttediseven"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnerseven"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/ediseven"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="thickness of ice in m"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/releight"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relseven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnereight"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedieight"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedieight"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnereight"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/editeight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="span in m"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relnine"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/releight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnernine"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedinine"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedinine"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnernine"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edinine"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="height of Pole A in m"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relten"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relnine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnerten"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttediten"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttediten"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnerten"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/editen"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="height of Pole B in m"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:visibility="gone"
+                    android:text="make sure you select whether size is area, diameter or radius"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/releleven"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/relten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinnereleven"
+                android:layout_width="50dp"
+                android:layout_alignBottom="@+id/ttedieleven"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.AppCompatSpinner>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ttedieleven"
+                android:layout_width="match_parent"
+                android:textColorHint="#0a2149"
+                android:layout_toRightOf="@+id/spinnereleven"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/edieleven"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_width="match_parent"
+                    android:inputType="number|numberDecimal"
+                    android:singleLine="true"
+                    android:textColor="#0a2149"
+                    android:textColorHint="#0a2149"
+                    android:backgroundTint="#ffffff"
+                    android:layout_height="wrap_content"
+                        android:hint="reference pole in m"/>
+
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_below="@id/ttedieleven"
+                    android:visibility="visible"
+                    android:text="refrence pole indicates which pole would be used as refrence for sag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/proceed"
+            android:src="@drawable/ic_proceed"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/releleven"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/retrieve"
+            android:src="@drawable/ic_reborn"
+            android:layout_marginRight="10dp"
+            android:layout_alignBottom="@id/proceed"
+            android:layout_toLeftOf="@id/proceed"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+        </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

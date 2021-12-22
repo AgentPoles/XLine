@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gen_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstInnerCalculator">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="87dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/learn_inner"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        />
+
+        <android.support.v7.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/card_view_nesis"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="@color/asheb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:src="@drawable/ic_realdesign"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:transitionName="viewpagere"
+                    />
+
+                <TextView
+                    android:fontFamily="@font/aldrich"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:text="The NESIS STANDARDS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    />
+
+               <ImageView
+                android:id="@+id/explore_menu"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_menuu"
+                android:layout_width="18dp"
+                android:layout_height="18dp" />
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+<RelativeLayout
+    android:visibility="gone"
+    android:id="@+id/rel_question"
+    android:background="@color/blacki_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/rel_question_back"
+        android:layout_margin="10dp"
+        android:src="@drawable/back"
+        android:layout_width="35dp"
+        android:clickable="true"
+        android:layout_height="35dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="@color/asheb"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_realdesign"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:transitionName="viewpagered"/>
+
+            <EditText
+                android:fontFamily="@font/aldrich"
+                android:textStyle="bold"
+                android:id="@+id/question_text"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:hint="ask question"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/explore_menue"
+                android:layout_gravity="bottom"
+                android:src="@drawable/ic_menu_send"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ask_the_questions"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        app:rippleColor="@color/green_kindof"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/ic_askb"
+        app:backgroundTint="@color/white"
+        android:layout_width="55dp"
+        android:transitionName="people"
+        android:layout_height="55dp" />
+</RelativeLayout>
+</FrameLayout>

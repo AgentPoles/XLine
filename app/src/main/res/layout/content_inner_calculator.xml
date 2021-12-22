@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_margin="0dp"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".InnerCalculator"
+    tools:showIn="@layout/app_bar_inner_calculator">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/frameholder"
+        android:background="@drawable/calculator_face"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height">
+        <ImageView
+            android:id="@+id/innerholderimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:transitionName="recycled" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tobefound"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/yatra_one"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:text=""
+            android:textSize="25sp"
+            android:transitionName="tobefound" />
+            <TextView
+                android:id="@+id/answer"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:visibility="visible"
+                android:layout_below="@+id/tobefound"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/allerta_stencil"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="0.000"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/unitname"
+                android:layout_marginRight="40dp"
+                android:layout_alignParentRight="true"
+                android:text="unit"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/almendra_display"
+                android:textStyle="italic"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold|italic"
+
+                android:id="@+id/unitvalue"
+                android:text="amperes"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="35dp"
+                android:fontFamily="@font/architects_daughter"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/unitname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </FrameLayout>
+        <android.support.v4.widget.NestedScrollView
+            android:layout_below="@+id/frameholder"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_below="@+id/frameholder"
+        app:layout_constraintTop_toBottomOf="@id/frameholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:id="@+id/ineer_calculator_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.mycompany.myapp.xline.FirstInnerCalculator"
+            tools:layout="@layout/fragment_first_inner_calculator" />
+    </FrameLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

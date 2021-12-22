@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="towers"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/titlea"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <ImageView
+        app:srcCompat = "@drawable/ic_schoolbeta"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/titlea"
+        android:id="@+id/conversationImagea"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/texta"
+        android:layout_below="@+id/timeViewa"
+        android:textColor="@color/color_letters"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="hi welcome to your design aid"
+        android:layout_toRightOf="@+id/conversationImagea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/titlea"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="sep 28"
+            android:textSize="13sp"
+            android:layout_margin="3dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/timeViewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relb"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="towers"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/titleb"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/conversationImageb"
+        android:layout_below="@+id/titleb"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/upoe"
+        android:text="you"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/textb"
+            android:layout_below="@+id/timeViewb"
+            android:textColor="@color/color_letters"
+            android:layout_marginTop="2dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="hi welcome to your design aid"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/titleb"
+            android:layout_margin="3dp"
+            android:textColor="@android:color/holo_red_light"
+            android:text="sep 28"
+            android:id="@+id/timeViewb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

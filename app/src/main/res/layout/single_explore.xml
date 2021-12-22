@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_margin="7dp"
+        android:id="@+id/explore_card"
+        app:cardCornerRadius="15dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/ashes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/lin_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/explore_image"
+                    android:src="@drawable/ic_nercy"
+                    android:layout_margin="8dp"
+                    android:layout_width="50dp"
+                    android:transitionName="nerc_image"
+                    android:layout_height="50dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/article_number"
+                    android:fontFamily="@font/architects_daughter"
+                    android:text="article 304"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:transitionName="article_title"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/color_letters"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/title_holder"
+                  android:layout_marginRight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            </LinearLayout>
+<TextView
+    android:maxLines="4"
+    android:ellipsize="end"
+    android:transitionName="article_body"
+    android:id="@+id/article_body"
+    android:fontFamily="@font/yatra_one"
+    android:textColor="@color/color_letters"
+    android:layout_marginLeft="60dp"
+    android:text="@string/doubleandsingle"
+    android:layout_marginBottom="10dp"
+    android:layout_below="@+id/lin_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

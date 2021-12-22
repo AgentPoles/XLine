@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/almendra_display</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/atomic_age</item>
+        <item>@font/yatra_one</item>
+    </array>
+</resources>

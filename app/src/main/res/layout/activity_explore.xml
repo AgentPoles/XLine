@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_margin="0dp"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Explore"
+    tools:showIn="@layout/app_bar_inner_explore">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/explore_imageb"
+                android:src="@drawable/menus"
+                android:clickable="true"
+                android:layout_margin="8dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/article_numberb"
+                android:fontFamily="@font/architects_daughter"
+                android:text="article 304"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:transitionName="article_title"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:textColor="@color/color_letters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/title_holder"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/article_bodyb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:keepScreenOn="true"
+                    android:layout_margin="15dp"
+                    android:transitionName="article_body"
+                    android:text="@string/dummy_content"
+                    android:textColor="@color/color_letters"
+                    android:textSize="17sp"
+                    android:fontFamily="serif-monospace" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+        </LinearLayout>
+
+    </FrameLayout>
+    <RelativeLayout
+        android:id="@+id/tellusclick"
+        android:layout_gravity="bottom"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <android.support.v7.widget.CardView
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/green_kindof"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/smallynercy"
+   android:src="@drawable/ic_nercy"
+                android:transitionName="nerc_image"
+                android:layout_marginLeft="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <com.tomer.fadingtextview.FadingTextView
+                android:id="@+id/fadingText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginRight="20dp"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                app:texts="@array/text"
+                app:timeout="3000"/>
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+<RelativeLayout
+    android:visibility="gone"
+    android:id="@+id/tablerel"
+    android:padding="20dp"
+    android:background="@color/black_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/tablerelback"
+        android:src="@drawable/back"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+    <uk.co.senab.photoview.PhotoView
+        android:layout_below="@id/tablerelback"
+        android:id="@+id/tableimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+</FrameLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

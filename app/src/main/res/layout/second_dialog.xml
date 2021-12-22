@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imagecancelb"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@android:drawable/ic_delete"
+        android:layout_marginBottom="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/messagea"
+        android:textSize="16sp"
+        android:layout_below="@+id/imagecancelb"
+        android:textColor="@color/color_letters"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="what voltage and power values are we transmitting and at what power factor?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/answerb1"
+        android:padding="5dp"
+        android:hint="estimate total length in km"
+        android:layout_below="@+id/messagea"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/group_backkin"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/proceedb1"
+        android:src="@drawable/ic_proceed"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/answerb1"
+        android:layout_below="@id/answerb1"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+</RelativeLayout>

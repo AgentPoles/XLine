@@ -1,0 +1,456 @@
+<resources>
+    <string name="app_name">XLine</string>
+    <string name="title_home">Design</string>
+    <string name="title_dashboard">Calculate</string>
+    <string name="title_notifications">Explore</string>
+    <string-array name="text">
+        <item>Click to get</item>
+        <item>The complete NESIS standard</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">Calculate</string>
+    <string name="backdrop_subtitle">obtain some of the major line considerations</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calculator">Calculator</string>
+
+    <string name="general_provisionse">
+        The standards, as outlined herein, deal with requirements, compulsory procedures and
+practices necessary for overhead transmission line construction in the Nigerian
+Electricity Supply Industry. It is designed to meet service reliability, safe operation and
+maintenance of transmission lines. Such transmission lines shall be capable of
+withstanding expected electrical and climatic loads while maintaining design
+consistency between strengths of line components. There shall be a written approval
+granted by NERC prior to the construction of transmission lines. The transmission
+line shall be designed to meet the following fundamental requirements and shall comply
+with the provisions of IEC 60826 standard:
+i. Ensure reliable and safe power transmission capability
+ii. Reduce the probability of uncontrollable propagation of failures (failure containment)
+iii. Ensure safe construction and maintenance conditions
+    </string>
+    <string name="right_of_ways">
+    The Right of Way (RoW) is the distance of any structure from the middle conductors of
+overhead power lines of any voltage level. The RoW shall be as indicated in the table 3.1.
+</string>
+
+    <string name="overhead_transmission_conductors">
+        The standards, as outlined herein, deal with requirements, compulsory procedures and
+practices necessary for overhead transmission line construction in the Nigerian
+Electricity Supply Industry. It is designed to meet service reliability, safe operation and
+maintenance of transmission lines. Such transmission lines shall be capable of
+withstanding expected electrical and climatic loads while maintaining design
+consistency between strengths of line components. There shall be a written approval
+granted by NERC prior to the construction of transmission lines. The transmission
+line shall be designed to meet the following fundamental requirements and shall comply
+with the provisions of IEC 60826 standard:
+i. Ensure reliable and safe power transmission capability
+ii. Reduce the probability of uncontrollable propagation of failures (failure containment)
+iii. Ensure safe construction and maintenance conditions
+    </string>
+
+
+    <string name="general_provisions">
+        The standards, as outlined herein, deal with requirements, compulsory procedures and
+practices necessary for overhead transmission line construction in the Nigerian
+Electricity Supply Industry. It is designed to meet service reliability, safe operation and
+maintenance of transmission lines. Such transmission lines shall be capable of
+withstanding expected electrical and climatic loads while maintaining design
+consistency between strengths of line components. There shall be a written approval
+granted by NERC prior to the construction of transmission lines. The transmission
+line shall be designed to meet the following fundamental requirements and shall comply
+with the provisions of IEC 60826 standard:
+i. Ensure reliable and safe power transmission capability
+ii. Reduce the probability of uncontrollable propagation of failures (failure containment)
+iii. Ensure safe construction and maintenance conditions
+    </string>
+
+    <string name="properties_of_electrical_conductors">
+    Minimum Tensile Strength:
+    Overhead transmission conductors – including overhead ground wires but excluding
+    the case where they are cables – shall be stranded wires with a tensile strength no less
+    than 10kN/m.
+    Bare Conductors:
+    Bare conductors and overhead ground wires (including overhead ground wires
+    containing optical fibre cables) that are used for transmission lines shall conform to the
+    following requirements:
+    Properties of Solid Wires
+    Solid wires (hard-drawn copper wire, hard-drawn aluminium wire, galvanized steel wire,
+    aluminium alloy wire, etc.) which compose an electrical conductor, shall have
+    conductivity and tensile strength not lower than the values specified in the IEC
+    standards IEC60028, 60889, 60888, 61232, and 60104.
+    </string>
+
+    <string name="insulation_of_conductors">
+Mechanical Strength of Insulators for Overhead Transmission Lines
+a. Assumed Load
+        The assumed loads to be used for calculating the strength of insulator devices for
+overhead transmission lines shall conform to the following requirements:
+i. Vertical Load: The vertical load shall be the sum of the weight of electrical conductors,
+the weight of insulator devices and the vertical component of force generated by the
+assumed maximum tension of the electrical conductors.
+ii. Horizontal Transverse Load: The horizontal transverse load shall be the sum of the
+wind pressure loads of electrical conductors and insulator devices and the horizontal
+component of load generated by the assumed maximum tension of the electrical
+conductors.
+        iii. Assumed Maximum Tension of Transmission Conductors: The assumed maximum
+tension of the transmission conductor under the composite load of the vertical load
+generated by the weight of the electrical conductor and the horizontal load generated
+by the horizontal wind pressure stipulated in Table 3.3.1a at the average temperature in
+the area.
+    </string>
+
+    <string name="dielectric_strength">
+Clearance between Supporting Structures and Electrical Conductors
+The clearance between overhead transmission conductors (excluding cables) and their
+supporting structures, cross arms or guys (pole braces) shall not be less than the
+values shown in Table 3.4.1 even when the electrical conductor sways by a wind
+velocity of about 20m/s.
+a. Dielectric Strength of Insulators
+The insulators to be used for overhead transmission lines shall have the dielectric
+strength that has been verified in the wet power-frequency voltage test specified in
+IEC60383-1 or other equivalent IEC tests.
+        b. Dielectric Strength Test
+Where the operational voltage to ground is applied between the overhead transmission
+line and the ground continuously for ten (10) minutes to test the dielectric strength (in
+conformity with IEC60038) before the commencement of operation, the transmission
+line shall withstand such a test standard.
+c. In case where cables are used for overhead transmission lines, the test shall conform
+to subsection 3.8.1.1. get it from the original NESIS standard
+    </string>
+
+    Where electric circuits cross at mid-span positions, the following conditions shall apply
+    a. The circuit of the higher voltage shall always cross over the circuit of the lower voltage;
+    b. No circuit shall cross at an angle of less than 30 degrees; and
+    c. The minimum clearance between the nearest conductors of different circuits at the
+    point of crossing, including "aerial" earth wire, shall not be less than that tabulated
+    below PLUS the maximum design sag of the conductor of the lower circuit at the point
+    of crossing.
+
+    <string name="support_structures">
+    Steel Structural Members of Supporting Structures
+    a. Fundamental Properties
+    Flat steel, shaped steel, steel pipes, steel plates, steel bars and bolts which compose a
+    steel tower or iron pole used for overhead transmission lines shall be appropriate ones
+    as specified by ISO and SON.
+    b. Thickness of Steel Members
+    Shaped steel, steel pipes and steel plates to be used for steel tower or iron pole for
+    overhead transmission lines shall have the thickness and other dimensions specified
+    below:
+    i. Minimum thickness of shaped steel to be used as:
+    a. Main post member of an iron pole (in which a main member of a cross arm is included;
+    the same shall apply hereafter in this section) shall have the thickness of 4mm.
+    b. Main post member of a steel tower shall have the thickness of 5mm.
+    c. Other structural members shall have the thickness of 3mm.
+    ii. Minimum thickness of steel pipes to be used as:
+    a. Main post member of an iron pole shall have the thickness of 2mm.
+    b. Main post member of a steel tower shall have the thickness of 2.4mm.
+    c. Other structural members shall have the thickness of 1.6mm.
+    iii. Slenderness ratio of steel members
+    The slenderness ratio of a compression member shall be no more than 200 for those to
+    be used as a main post member and no more than 220 for compression members other
+    than main post members (excluding those used as auxiliary members) and no more
+    than 250 for those used as auxiliary members.
+    iv. Minimum thickness of steel plates
+    The thickness shall be no less than 1mm.
+    </string>
+
+    <string name="regulations_for_installation">
+        Clearance between Overhead Ground Wires and Electrical Conductors
+    Where electric circuits cross at mid-span positions, the following conditions shall apply
+        a.The circuit of the higher voltage shall always cross over the circuit of the lower voltage;
+    b. No circuit shall cross at an angle of less than 30 degrees; and
+    c. The minimum clearance between the nearest conductors of different circuits at the
+    point of crossing, including "aerial" earth wire, shall not be less than that tabulated
+    below PLUS the maximum design sag of the conductor of the lower circuit at the point
+    of crossing.
+        Height of Overhead Transmission Conductors and Limitation of Span
+a. The height above ground of any electric line under the most adverse operating
+conditions shall not, except with the written authority of NERC, be less than the height
+appropriate to the system voltage and situations tabulated in Table 3.6.2.
+b. Fully insulated service lines operating at a voltage not exceeding 400Volts may be
+terminated on buildings at a height of not less than 2.7 m from ground level provided
+that the street clearance at any point of its span is not less than 5.8 m.
+        Clearance between Plants and Overhead Transmission Conductors
+The clearance between any overhead transmission conductor and any plant shall not
+be less than the value specified in the Table 3.6.3. The clearance shall be
+secured to provide for the occurrence of such case that the electrical conductor dips at
+the maximum design operating temperature or sways in the wind.
+    </string>
+    <string name="restriction_in_urban">
+        No overhead transmission line shall be installed in urban areas or other densely
+populated and built-up areas.
+The restrictions above shall not apply where the nominal voltage of the overhead
+transmission line is not more than 132kV and the electrical conductors are cables or the
+installation is carried out according to the following requirements:
+a. Strength of electrical conductor
+The strength of electrical conductor shall conform to Table 3.6.4(a).
+     b. Limitation of Span
+The length of span of overhead transmission lines shall conform to Table 3.6.4(b).
+        c. Height of electrical conductor above the ground
+The height of overhead transmission conductors above the ground shall be not less
+than the value specified in Table 3.6.4(c) below. The height shall be secured to provide
+for the occurrence of such case that the electrical conductor sag at the maximum
+design operating temperature.
+This shall not apply to overhead transmission lines for a span connecting the yard of a
+power plant, substation or similar place to the outside.
+        d. Indication of danger
+Supporting structures shall be provided with an indication of danger in a location where
+it is easily read. This shall not apply when insulated conductors are used for overhead
+transmission lines with a nominal voltage less than or equal to 33kV.
+e. Definition of an Urban Area or Other Densely Built-up Area
+An urban area or other densely built-up area shall be defined according to the buildingto-
+land ratio specified in Table 3.6.4(d)
+
+    </string>
+    <string name="regulations_for_side_by_side_installation">
+    Alternative provision
+    a. Where the condition of Clause 3.6.2(check from original NESIS standard) cannot be met, the line shall be erected so that the
+    minimum horizontal distance in meters of the nearest conductor in still air is not less
+    than-
+    (Conductor sag at maximum design temperature PLUS length of suspension insulator
+    string) PLUS B, where "B" is a constant dependent on the voltage between phases of
+    the conductors of the line-
+    415Volts - 11,000 Volts 2.4 meters
+    33,000 Volts 3.0 meters
+    132,000 Volts 4.0 meters
+    330,000 Volts 6.0 meters
+    Over 330,000 Volts 9.0 meters
+    b. Where the conductors of the circuit are fully insulated the constant "B" may be reduced
+    by 50%.
+    c. In the case of specially designed fully insulated serial cables clearance to buildings may
+    be reduced at the discretion of NERC.
+    d. No building or other structure shall be erected under or adjacent to an electric line
+    without adhering to the provisions of this standard.
+    </string>
+    <string name="installtation_with_db_conductors">
+    3.7.1.1 Installation with Distribution Conductors
+    a. When overhead transmission conductors with a nominal voltage higher than 33kV and
+    overhead distribution conductors are installed on the same supporting structure, the
+    installation shall be carried out in accordance with the requirements of Chapter 5.
+    The electrical conductor with a higher voltage shall be installed above the electrical
+    conductor with a lower voltage, using separate cross arms.
+    i. Clearance
+    The clearance between any overhead transmission conductor and any overhead
+    distribution conductor shall be not shorter than the values specified in Table 3.7.1.1(a)
+    ii. Strength of overhead distribution conductors
+    Overhead distribution conductors shall be any of those specified in the following items
+    except for cases where cables are used:
+    a. Those with a tensile strength no less than 5 kN where the span of the overhead
+    distribution conductor is not longer than 50m
+    b. Those with a tensile strength no less than 8 kN where the span of the overhead
+    distribution conductor is longer than 50m.
+    c. Overhead transmission conductors with a nominal voltage over 33kV but below 132kV
+    and low-voltage overhead distribution conductors shall not be installed on the same
+    supporting structure.
+        When overhead transmission conductors with a nominal voltage over 33kV but below
+132kV and medium-voltage overhead distribution conductors are installed on the same
+supporting structure, the installation shall be carried out in accordance with the
+following requirements:
+i. Position of installing electrical conductors
+Overhead transmission conductors shall be installed above overhead distribution
+conductors using separate cross arms. This shall not apply where such overhead
+distribution conductor is installed together with overhead distribution conductor for the
+SWER system.
+ii. Strength of overhead transmission conductors
+The overhead transmission conductors shall be the stranded wires with a tensile
+strength no less than 30 kN excluding the case where they are cables.
+iii. Transmission line strengthening work
+Overhead transmission lines shall be installed according to the provisions for type 2
+transmission line strengthening work in Table 3.7.1.1(a).
+iv. Clearance
+d. The clearance between any overhead transmission conductor and any overhead
+distribution conductor shall be no less than the values specified in Table 3.7.1.1(b).
+    </string>
+    <string name="large_text">
+        "Material is the metaphor-y.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+
+    </string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_inner_calculator">InnerCalculator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_activity_design_activity">Design_activity</string>
+
+    <string name="safetyfactor"> a. Assumed Load and Safety Factor:
+Overhead transmission conductors and overhead ground wires (excluding cables, the
+same applies hereafter in this section) shall be installed such that the tension shall
+allow for a safety factor specified in (ii) below when they are subjected to the assumed
+load specified in (i) below at an average ambient temperature of the test area.
+1. Assumed Load: The assumed load for the calculation of tension of overhead
+transmission conductors and overhead ground wires shall be the composite load of the
+vertical loads and the horizontal loads specified as follows:
+a. The vertical load shall be the weight of the electrical conductor.
+b. The horizontal load shall be the horizontal wind pressure load of 790N per m2 of vertical
+projected area of the electrical conductor.
+2. Safety Factor: A safety factor of no less than 2.5 shall be applied to the tensile strength
+(ultimate tensile strength; breaking strength) of overhead transmission conductors and
+overhead ground wires.
+b. Prevention of Damage due to Slight Wind Oscillation: Overhead transmission
+conductors and overhead ground wires shall be installed so as not to suffer damage
+from a slight wind oscillation.</string>
+    <string name="insulators">The assumed loads to be used for calculating the strength of insulator devices for
+overhead transmission lines shall conform to the following requirements:
+1. Vertical Load: The vertical load shall be the sum of the weight of electrical conductors,
+the weight of insulator devices and the vertical component of force generated by the
+assumed maximum tension of the electrical conductors.
+2. Horizontal Transverse Load: The horizontal transverse load shall be the sum of the
+wind pressure loads of electrical conductors and insulator devices and the horizontal
+component of load generated by the assumed maximum tension of the electrical
+conductors.
+    A safety factor of no less than 2.5 shall be applied to the insulator
+devices for overhead transmission lines. The safety factor mentioned above shall be
+obtained as follows:
+a. Tension insulator device (Insulator device that anchors electrical conductors).
+        safety factor = tensile break strength divided by the assumed maximum tension at support point.
+
+ii. Suspension insulator device (Insulator device that electrical conductors are hung from).
+        safety factor = tensile break strength divided by the composite load of transverse load and horizontal transverse load.
+
+iii. Supporting insulator device safety factor = bending break strength divided by the horizoontal transverse load to vertical load
+        applied perpendicular to axis of insulator device.
+        The insulators to be used for the overhead transmission lines shall have the dielectric
+strength that has been verified in the wet power-frequency voltage test specified in
+IEC60383-1 or other equivalent IEC tests.
+</string>
+    <string name="firstclearance">Clearance between Overhead Ground Wires and Electrical Conductors.
+Where electric circuits cross at mid-span positions, the following conditions shall apply
+        a.The circuit of the higher voltage shall always cross over the circuit of the lower voltage;
+b. No circuit shall cross at an angle of less than 30 degrees; and
+c. The minimum clearance between the nearest conductors of different circuits at the
+point of crossing, including "aerial" earth wire, shall not be less </string>
+    <string name="secondclearance">Height of Overhead Transmission Conductors and Limitation of Span
+a. The height above ground of any electric line under the most adverse operating
+conditions shall not, except with the written authority of NERC, be less than </string>
+    <string name="thirdclearance">b. Fully insulated service lines operating at a voltage not exceeding 400Volts may be
+terminated on buildings at a height of not less than 2.7 m from ground level provided
+that the street clearance at any point of its span is not less than 5.8 m.</string>
+    <string name="doubleandsingle">the transmission circuit could be made single or double,
+        The double circuit is usually more efficient and reliable,
+        because it carries two separate threephase power on the same tower,
+        hence can supply more power and when one set of three phase fail, the other can stand in, provided its capacity is not exceeded.
+        Of course the double circuit is more expensive than the single circuit,
+        because it requires more conductors and usually for double circuit,
+        we usually have two ground wires </string>
+    <string name="support_structure">
+        Generally structures made of reinforced concrete, of even iron poles can be used, but the steel tower is reccommended. kindly explore clause 3.5.1 of NESIS to view requirements
+    </string>
+
+    <string name="title_activity_explore">Explore</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_ask_question"> </string>
+    <string name="title_activity_basic">Basic</string>
+</resources>

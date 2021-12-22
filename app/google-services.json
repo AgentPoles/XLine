@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "233134050884",
+    "firebase_url": "https://xline-a74aa.firebaseio.com",
+    "project_id": "xline-a74aa",
+    "storage_bucket": "xline-a74aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233134050884:android:a3094a29504ef907",
+        "android_client_info": {
+          "package_name": "com.mycompany.myapp.xline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233134050884-e3822e4nf32rp4tscftmffj5h5l474ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYGC_LBhzNZ0Fka-Thso8BxXhNFswIFb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

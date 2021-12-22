@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AskQuestion"
+    tools:showIn="@layout/activity_ask_question">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_admin"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/say_root_admin_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Ask Questions"
+                android:textColor="@color/color_letters"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/say_root_admin_name"
+                android:id="@+id/root_admin_name"
+                android:text="Project Xline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/showprogress"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/say_root_admin_name"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <RelativeLayout
+      android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:background="@color/ashes"
+        android:layout_below="@+id/card_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/intro"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="you will receive Response through this Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="40dp"
+            android:id="@+id/inputedi"
+            android:layout_width="match_parent"
+            android:textColorHint="@color/color_letters"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:id="@+id/edemail"
+                android:textColor="@color/color_letters"
+                android:textColorHint="@color/color_letters"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="#ffffff"
+                android:layout_height="wrap_content"
+                android:hint="enter email"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ediinput"
+            android:layout_below="@+id/inputedi"
+            android:layout_width="match_parent"
+            android:textColorHint="#0a2149"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_gravity="center_vertical"
+                android:id="@+id/ediquestion"
+                android:textColor="@color/color_letters"
+                android:textColorHint="@color/color_letters"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:backgroundTint="#ffffff"
+                android:layout_height="wrap_content"
+                android:hint="ask your question"/>
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="please ensure email address is correct"
+            android:layout_below="@+id/ediinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

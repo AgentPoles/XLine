@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/asheb"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Design_activity"
+    tools:showIn="@layout/app_bar_design_activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/lina"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/projectname"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:transitionName="projectname"
+            android:text="project name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<android.support.design.widget.FloatingActionButton
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:transitionName="newdesign"
+    android:src="@drawable/ic_rocket"
+    android:layout_width="3dp"
+    android:layout_height="3dp" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/lina"
+        android:layout_marginTop="10dp"
+        android:id="@+id/design_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relfirst"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:background="@color/blacki_overlay"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imagecancel"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_delete"
+            android:layout_marginBottom="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/messagea"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/imagecancel"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="what voltage and power values are we transmitting and at what power factor?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/answer1"
+            android:padding="5dp"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/color_letters"
+            android:textColorHint="@color/color_letters"
+            android:hint="power in kilowatts"
+            android:layout_below="@+id/messagea"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/group_backkin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/answer2"
+            android:padding="5dp"
+            android:inputType="number|numberDecimal"
+            android:hint="volt in kilovolts"
+            android:layout_below="@+id/answer1"
+            android:textColor="@color/color_letters"
+            android:textColorHint="@color/color_letters"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/group_backkin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/answer3"
+            android:padding="5dp"
+            android:hint="power factor"
+            android:layout_below="@+id/answer2"
+            android:inputType="number|numberDecimal"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_letters"
+            android:textColorHint="@color/color_letters"
+            android:background="@drawable/group_backkin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/proceed1"
+            android:src="@drawable/ic_proceed"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/answer3"
+            android:layout_below="@id/answer3"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/relsecond"
+        android:layout_gravity="center"
+        android:background="@color/blacki_overlay"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imagecancelb"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_delete"
+            android:layout_marginBottom="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/messageb"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/imagecancelb"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="what voltage and power values are we transmitting and at what power factor?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/answerb1"
+            android:textColor="@color/color_letters"
+            android:textColorHint="@color/color_letters"
+            android:padding="5dp"
+            android:inputType="number|numberDecimal"
+            android:hint="estimate total length in km"
+            android:layout_below="@+id/messageb"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/group_backkin"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/answerb2"
+                    android:textColor="@color/color_letters"
+                    android:textColorHint="@color/color_letters"
+                    android:padding="5dp"
+                    android:inputType="number|numberDecimal"
+                    android:hint="select number of conductors per bundle"
+                    android:layout_below="@+id/answerb1"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/group_backkin"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#eee6a4"
+                    android:text="we reccommend the use of four conductors per bundle for voltage greater the 220kv"
+                    android:id="@+id/textb2"
+                    android:layout_below="@+id/answerb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/proceedb1"
+            android:src="@drawable/ic_proceed"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/answerb1"
+            android:layout_below="@id/textb2"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+
+    </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relthird"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:background="@color/blacki_overlay"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/messagec"
+                    android:layout_below="@+id/imagecancelc"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:text="please provide the values for the loadings, if loading is absent, enter 0
+or click the second button to use values from the NERC standard, also selech the box below if double circuit is desired"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/windloading"
+                    android:layout_below="@+id/messagec"
+                    android:textColor="@color/color_letters"
+                    android:textColorHint="@color/color_letters"
+                    android:padding="5dp"
+                    android:background="@drawable/group_backkin"
+                    android:inputType="number|numberDecimal"
+                    android:layout_centerHorizontal="true"
+                    android:hint="wind loading Kg/m2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_below="@+id/windloading"
+                    android:hint="ice loading in Kg/m3"
+                    android:id="@+id/ice_loading"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/color_letters"
+                    android:textColorHint="@color/color_letters"
+                    android:padding="5dp"
+                    android:inputType="number|numberDecimal"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/group_backkin"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content" />
+                        <EditText
+                            android:layout_below="@+id/ice_loading"
+                            android:hint="ice thickness in m"
+                            android:id="@+id/ice_thickness"
+                            android:layout_marginTop="5dp"
+                            android:textColor="@color/color_letters"
+                            android:textColorHint="@color/color_letters"
+                            android:padding="5dp"
+                            android:inputType="number|numberDecimal"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/group_backkin"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content" />
+                        <CheckBox
+                            android:id="@+id/doublechecky"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@android:color/white"
+                            android:layout_below="@+id/ice_thickness"
+                            android:textSize="16sp"
+                            android:text="double circuit?"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/buttonc"
+                    android:src="@drawable/ic_proceed"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/doublechecky"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/buttonr"
+                    android:src="@drawable/ic_reborn"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignBottom="@id/buttonc"
+                    android:layout_toLeftOf="@id/buttonc"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp" />
+                <ImageView
+                android:id="@+id/imagecancelc"
+                android:clickable="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/ic_delete"
+                android:layout_marginBottom="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel_graph_view"
+        android:visibility="gone"
+        android:padding="30dp"
+         android:background="@color/black_overlay"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.softmoore.android.graphlib.GraphView
+            android:id="@+id/graph_view"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/graph_view_label"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:background="@drawable/group_backkin"
+            android:padding="5dp"
+            android:text="dkdkdk"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:textSize="17sp"
+            android:id="@+id/graph_view_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+</FrameLayout>

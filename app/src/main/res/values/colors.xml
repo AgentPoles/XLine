@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ef2312</color>
+    <color name="colorPrimaryDark">#eb2943</color>
+    <color name="colorAccent">#eb2943</color>
+    <color name="viewBg">#e0f5d8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="colorCalculator">#ffd883</color>
+    <color name="colorfadedblack">#022020</color>
+    <color name="color_letters">#0A2149</color>
+    <color name="ashes">#dddddd</color>
+    <color name="asheb">#eeeeee</color>
+    <color name="blacki_overlay">#bb000102</color>
+   <color name="green_kindof">#109D59</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffff</color>
+</resources>
